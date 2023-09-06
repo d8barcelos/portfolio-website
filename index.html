@@ -18,7 +18,7 @@
         <li id="link2" class="link"><a>Projetos</a></li>
         <li id="link3" class="link"><a>Contato</a></li>
       </ul>
-      <button class="btn">Download CV</button>
+      <button download="" class="btn">Download CV</button>
     </nav>
 
     <header class="container">
@@ -54,8 +54,9 @@
           </span>
           <h4>.NET Developer</h4>
           <p>
-            Experiência no desenvolvimento de APIs e sistemas web utilizando o ambiente .NET 6+. Habilidades em Entity
-            Framework para modelagem e acesso a bancos de dados e ASP.NET para desenvolvimento web.
+            Experiência no desenvolvimento de APIs e sistemas web utilizando o
+            ambiente .NET 6+. Habilidades em Entity Framework para modelagem e
+            acesso a bancos de dados e ASP.NET para desenvolvimento web.
           </p>
         </div>
         <div class="card">
@@ -64,9 +65,10 @@
           </span>
           <h4>Software Developer</h4>
           <p>
-            Conhecimento em desenvolvimento de software, APIs RESTful e
-            aplicações web e mobile utilizando as linguagens C#, Java, PHP,
-            Node.js e .NET para a criação de soluções robustas e escaláveis.
+            Conhecimento em desenvolvimento de software e aplicações web
+            utilizando as linguagens C#, Java, PHP, Node.js e .NET. Também
+            possuo experiência no uso de ferramentas de versionamento como Git e
+            Github.
           </p>
         </div>
         <div class="card">
@@ -191,10 +193,9 @@
         <h2 class="header">CONTATO</h2>
         <span class="blur"></span>
         <span class="blur"></span>
-        <form action="">
-          <input type="text" required placeholder="Seu nome:" />
-          <input type="text" required placeholder="Seu email:" />
-          <input type="text" placeholder="Seu celular:" />
+        <form method="post" action="https://formsubmit.co/d8barcelos@gmail.com">
+          <input name="name" type="text" required placeholder="Seu nome:" />
+          <input name="email" type="text" required placeholder="Seu email:" />
           <textarea placeholder="Sua mensagem:" required></textarea>
           <div class="btn-enviar">
             <button class="btn" type="submit">Enviar</button>
@@ -205,5 +206,6 @@
 
     <footer class="footer">Feito por Diogo Barcelos</footer>
     <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>

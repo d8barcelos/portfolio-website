@@ -270,6 +270,7 @@ form input, form textarea {
 form textarea {
   resize: none;
   height: 180px;
+  font-family: 'Poppins', sans-serif;
 }
 
 form .btn-enviar {

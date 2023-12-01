@@ -252,6 +252,41 @@ section .header{
   border-color: #1e40af;
 }
 
+.button-link button {
+  width: 300px; 
+}
+
+/* Centraliza a tag <a> */
+.btn-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* Adiciona animação de hover ao botão */
+.btn-projects:hover .btn {
+  background-color: #1e40af;
+}
+
+/* Adiciona estilo ao botão */
+.btn-projects .btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  background-color: #1d4ed8;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-projects .btn:hover {
+  background-color: #1e40af;
+}
+
+
 form {
   max-width: 500px;
   margin: 0 auto;

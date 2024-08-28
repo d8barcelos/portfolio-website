@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-links">
+        <li class="link"><a href="#">Home</a></li>
+        <li id="link4" class="link"><a>Experiências</a></li>
+        <li id="link1" class="link"><a>Skills</a></li>
+        <li id="link2" class="link"><a>Projetos</a></li>
+        <li id="link3" class="link"><a>Contato</a></li>
+      </ul>
+      <a href="Curriculo.pdf" target="_blank" download rel="noopener noreferrer">
+        <button class="btn">Download CV</button>
+      </a>
+    </nav>
+
+    <header class="container">
+      <div class="content">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <h1>Olá, eu sou o <span>Diogo</span>, Software Developer</h1>
+        <p>
+          Desenvolvedor de software apaixonado por tecnologia, especializado em desenvolvimento back-end
+          utilizando C#, Java e Node.js. Comprometido em aprender e crescer em um
+          ambiente colaborativo de desenvolvimento. Ansioso para contribuir com
+          grandes projetos e aprimorar minhas habilidades.
+        </p>
+        <a href="https://www.linkedin.com/in/diogo-barcelos/" target="_blank"
+          ><button class="btn">Linkedin</button></a
+        >
+        <span style="margin-right: 8px"></span>
+        <a href="https://github.com/d8barcelos" target="_blank"
+          ><button class="btn">Github</button></a
+        >
+      </div>
+      <div class="image">
+        <img src="images/Software engineer-amico.svg" alt="Software Developer">
+      </div>      
+    </header>
+
+    <section class="container">
+      <h2 class="header">SKILLS</h2>
+      <div class="skills">
+        <div class="card">
+          <span>
+            <i class="ri-microsoft-fill"></i>
+          </span>
+          <h4>.NET Developer</h4>
+          <p>
+            Experiência no desenvolvimento de APIs e sistemas web utilizando o
+            ambiente .NET 6+. Habilidades em Entity Framework para modelagem e
+            acesso a bancos de dados e ASP.NET para desenvolvimento web.
+          </p>
+        </div>
+        <div class="card">
+          <span>
+            <i class="ri-code-s-slash-line"></i>
+          </span>
+          <h4>Software Developer</h4>
+          <p>
+            Conhecimento em desenvolvimento de software e aplicações web
+            utilizando as linguagens C#, Java, ASP.NET, Node.js e Python. Também
+            possuo experiência no uso de ferramentas de versionamento como Git e
+            Github.
+          </p>
+        </div>
+        <div class="card">
+          <span>
+            <i class="ri-computer-line"></i>
+          </span>
+          <h4>Front-End</h4>
+          <p>
+            Experiência na construção de interfaces responsivas, esteticamente
+            agradáveis e dinâmicas que consomem APIs. Tenho conhecimento nas
+            tecnologias: HTML, CSS, Javascript, React.js, Angular, Bootstrap e
+            Tailwind CSS.
+          </p>
+        </div>
+        <div class="card">
+          <span>
+            <i class="ri-database-2-line"></i>
+          </span>
+          <h4>Databases</h4>
+          <p>
+            Bom conhecimento em design, administração e integração de bancos de
+            dados, incluindo MySQL, SQL Server e Postgress. Tenho conhecimento em
+            integrar bancos de dados às aplicações por meio de interação com
+            APIs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencias" class="container">
+      <h2 class="header">EXPERIÊNCIAS</h2>
+      <div class="experiences">
+        <div class="card">
+          <h4>ProApp</h4>
+          <p>02/2024 até 08/2024</p>
+          <p>
+            Trabalhei como estagiário em desenvolvimento de software na ProApp, onde fui responsável pelo desenvolvimento e manutenção de aplicações utilizando tecnologias como Angular, C# e ASP.NET. Participei ativamente de reuniões de planejamento, contribuindo para a arquitetura e design das soluções, além de implementar funcionalidades críticas para o sistema.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Simple</h4>
+          <p>08/2024 - Atual</p>
+          <p>
+            Atuo como desenvolvedor de software na Simple, com foco em desenvolvimento back-end utilizando .NET e integração com bancos de dados SQL Server. Colaboro com equipes multidisciplinares para entregar soluções escaláveis e eficientes, mantendo sempre um alto padrão de qualidade de código.
+          </p>
+        </div>
+      </div>
+    </section>    
+
+    <section class="container">
+      <h2 class="header">PROJETOS</h2>
+      <div class="projects">
+        <div class="card">
+          <div class="content">
+            <h4>.NET 7 RPG Game</h4>
+            <p>
+              Projeto de um text-based RPG com funcionalidades completas de
+              criação, leitura, atualização e exclusão de personagens em um
+              mundo de RPG. Além disso, possui autenticação de usuário e
+              autorização para proteger as operações. Inclui recursos de
+              batalha, onde personagens lutam usando habilidades e armas, com
+              estatísticas de batalha registradas e um sistema de pontuação para
+              os melhores combatentes.
+            </p>
+            <p>
+              <i class="ri-arrow-right-s-line"></i>
+              .NET 7
+            </p>
+            <p>
+              <i class="ri-arrow-right-s-line"></i>
+              Entity Framework
+            </p>
+            <p>
+              <i class="ri-arrow-right-s-line"></i>
+              SQL Server
+            </p>
+          </div>
+          <a href="https://github.com/d8barcelos/dotnet-rpg" target="_blank" class="button-link">
+          <button class="btn">
+              <i class="ri-github-fill"></i>
+              Ver Projeto
+          </button>
+        </a>
+          
+        </div>
+        <div class="card">
+          <div class="content">
+            <h4>Snake game C#</h4>
+            <p>
+              O clássico "jogo da cobrinha" construído utilizando C# para a criação da lógica e WPF (Windows Presentation Foundation) para a construção da interface gráfica do jogo.
+            </p>
+            <p>
+              <i class="ri-arrow-right-s-line"></i>
+              C#
+            </p>
+            <p>
+              <i class="ri-arrow-right-s-line"></i>
+              WPF
+            </p>
+          </div>
+          <a href="https://github.com/d8barcelos/Snake" target="_blank" class="button-link">
+          <button class="btn">
+              <i class="ri-github-fill"></i>
+              Ver Projeto
+          </button>
+             </a>
+          
+        </div>
+        <div class="card">
+          <div class="content">
+            <h4>Sistema de cadastro</h4>
+            <p>
+              CRUD feito com ASP.NET MVC, Entity Framework e SQL Server para a
+              criação do back-end da aplicação. com um front-end simples
+              utilizando HTML, Javascript, JQuery, Bootstrap e um formulário que
+              utiliza a APi ViaCep para preencher o endereço de forma
+              automática.
+            </p>
+            <p>
+              <i class="ri-arrow-right-s-line"></i>
+              ASP.NET MVC
+            </p>
+            <p>
+              <i class="ri-arrow-right-s-line"></i>
+              Bootstrap
+            </p>
+            <p>
+              <i class="ri-arrow-right-s-line"></i>
+              Entity Framework
+            </p>
+            <p>
+              <i class="ri-arrow-right-s-line"></i>
+              SQL Server
+            </p>
+          </div>
+          <a href="https://github.com/d8barcelos/SistemaFornecedores" target="_blank" class="button-link">
+          <button class="btn">
+              <i class="ri-github-fill"></i>
+              Ver Projeto
+          </button>
+        </a>
+        </div>
+    </section>
+
+    <a href="https://github.com/d8barcelos?tab=repositories" target="_blank" class="btn-projects">
+      <button class="btn">
+          <i class="ri-github-fill"></i>
+          Ver mais projetos
+      </button>
+    </a>
+
+    <section class="form">
+      <div class="interface">
+        <h2 class="header">CONTATO</h2>
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <form method="post" action="https://formsubmit.co/d8barcelos@gmail.com">
+          <input name="name" type="text" required placeholder="Seu nome:" />
+          <input name="email" type="text" required placeholder="Seu email:" />
+          <textarea placeholder="Sua mensagem:" required></textarea>
+          <div class="btn-enviar">
+            <button class="btn" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">Feito com ☕ por Diogo Barcelos</footer>
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>

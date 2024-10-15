@@ -427,3 +427,16 @@ input, textarea::placeholder {
 }
 
 
+.techs {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tech {
+  border: 2px solid #1d4ed8;
+  color: #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}

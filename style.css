@@ -429,6 +429,7 @@ input, textarea::placeholder {
 
 .techs {
   display: flex;
+  flex-wrap: wrap; /* Permite a quebra de linha */
   gap: 10px;
   margin-top: 10px;
 }
@@ -438,5 +439,4 @@ input, textarea::placeholder {
   color: #ccc;
   padding: 5px 10px;
   border-radius: 5px;
-  font-size: 14px;
-}
+  font-size: 14px

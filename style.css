@@ -140,11 +140,11 @@ section .header{
   font-weight: 600;
 }
 
-.skills{
+.skills {
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }
 
 .skills .card{
@@ -440,3 +440,4 @@ input, textarea::placeholder {
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 14px
+}

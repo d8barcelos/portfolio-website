@@ -287,45 +287,6 @@ section .header{
 }
 
 
-form {
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-}
-
-form input, form textarea {
-  width: 100%;
-  background-color: #00000032;
-  border: 0;
-  outline: 0;
-  padding: 20px 15px;
-  border-radius: 5px;
-  color: #ccc;
-  font-size: 14px;
-}
-
-form textarea {
-  resize: none;
-  height: 180px;
-  font-family: 'Poppins', sans-serif;
-}
-
-form .btn-enviar {
-  margin-top: 10px;
-}
-
-form .btn {
-  width: 100%;
-  margin-bottom: 80px;
-}
-
-input, textarea::placeholder {
-  font-family: 'Poppins', sans-serif;
-}
-
 @media (width < 900px){
   .nav-links{
       display: none;
@@ -371,23 +332,6 @@ input, textarea::placeholder {
   margin-bottom: 30px;
 }
 
-@media (max-width: 500px) {
-  form {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-
-  form input,
-  form textarea {
-    padding: 15px 10px;
-    font-size: 12px;
-  }
-
-  form .btn {
-    margin-bottom: 20px;
-  }
-}
-
 .experiences {
   margin-top: 4rem;
   display: grid;
@@ -429,7 +373,7 @@ input, textarea::placeholder {
 
 .techs {
   display: flex;
-  flex-wrap: wrap; /* Permite a quebra de linha */
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 10px;
 }

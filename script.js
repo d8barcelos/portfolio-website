@@ -18,10 +18,6 @@ link2.addEventListener('click', () => {
   scrollToElement('#projetos');
 });
 
-link3.addEventListener('click', () => {
-  scrollToElement('.form');
-});
-
 link4.addEventListener('click', () => {
   scrollToElement('#experiencias');
 });
@@ -59,7 +55,6 @@ document.addEventListener('mouseup', () => {
   isMouseDown = false;
 });
 
-// Reset cube position when mouse leaves the wrapper
 document.querySelector('.cube-wrapper').addEventListener('mouseleave', () => {
   isMouseDown = false;
   cube.style.animation = 'initialRotation 2s ease-in-out infinite';
